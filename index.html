@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/estilo.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!--------CABEÇALHO-------->
+    <header>
+        <div class="
+        logo-header">
+            <img src="./src/imagens/logo-imovel-guide.png" alt="Logo Imovel Guide">
+        </div>
+
+        <div class="header">
+            <div class="header1">
+                <p>Condomínios</p>
+                <p>Fórum</p>
+                <p>Guia</p>
+                <p>Artigos</p>
+                <p>Ferramentas</p>
+            </div>
+
+            <div class="header2">
+                <p>Cotar Imóvel</p>
+                <p>Planos</p>
+                <p>Entrar</p>
+            </div>
+            <a href="http://" target="_blank" id="cadastre-se" rel="noopener noreferrer">CADASTRE-SE</a>
+        </div>
+
+    </header>
+    <!--------CONTAINER-------->
+    <main>
+        <div class="container">
+            <div class="corretores">
+                <ul>
+                    <li>
+                        <img src="./src/imagens/mulher.png" alt="mulher no escritório">
+                        <h1>Nome da corretora</h1>
+                        <p>3.000 pontos</p>
+                        <a href="tel:+">ver telefone</a>
+                    </li>
+
+                    <li>
+                        <img src="./src/imagens/homem.png" alt="homeme sorrindo">
+                        <h1>Nome do corretor</h1>
+                        <p>1.260 pontos</p>
+                        <a href="tel:+">ver telefone</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="imagens">
+                <img src="./src/imagens/OIP.png" alt="">
+                <button type="button" id="modal">ABRIR IMAGEM NO MODAL</button>
+            </div>
+
+            <div class="contato">
+                <form>
+                    <legend>
+                        <h1>Mande uma mensagem:</h1>
+                        <div>
+                            <input type="text" name="cpf" placeholder="Digite seu CPF" autocomplete="off" maxlength="15"
+                                required id="cpf">
+                            <label for="cpf" id="cpf2"></label>
+                        </div>
+
+                        <div>
+                            <input type="tel" name="telefone" placeholder="Digite seu telefone" maxlength="14"
+                                autocomplete="tel" required id="telefone">
+                            <label for="telefone" id="telefone2"></label>
+                        </div>
+
+                        <div>
+                            <input type="text" name="assunto" placeholder="Digite o assunto" id="assunto">
+                            <label for="assunto" id="assunto2"></label>
+                        </div>
+
+                        <button>Enviar Mensagem</button>
+                    </legend>
+                </form>
+            </div>
+
+            <div id="imagens">
+                <h1 id="imovel-guide">Imovel Guide</h1>
+                <img src="./src/imagens/OIP.png" alt="">
+                <button type="button" id="download">Download</button>
+            </div>
+
+            <div class="regrad3">
+                <form>
+                    <legend>
+                        <h1>Regra de 3</h1>
+                        <div class="input">
+                            <div class="input-group">
+                                <input type="number" name="a" id="num1">
+                                <input type="number" name="b" id="num2">
+                            </div>
+
+                            <div class="input-group">
+                                <input type="number" name="c" id="num3">
+                                <p id="resultado">
+                                    <input type="text" name="X" id="X">
+                                </p>
+                            </div>
+                        </div>
+                        <button type="button" id="calcular">Calcular</button>
+                    </legend>
+                </form>
+
+
+            </div>
+
+            <div id="imagens">
+                <img src="./src/imagens/OIP.png" alt="">
+            </div>
+
+        </div>
+    </main>
+
+    <!--------RODAPÉ-------->
+    <footer>
+        <div class="footer1">
+            <p>Termos</p>
+            <p>Contatos</p>
+            <p>Sobre</p>
+        </div>
+        <div class="footer2">
+            <p>&copy; Copyright 2022. Todos os direitos reservados.</p>
+            <img src="./src/imagens/logo-imovel-guide.png" alt="Logo Imovel Guide">
+        </div>
+    </footer>
+
+    <script src="./src/js/index.js"></script>
+    <script src="./src/js/regrad3.js"></script>
+</body>
+
+</html>

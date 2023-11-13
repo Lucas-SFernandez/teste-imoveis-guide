@@ -1,0 +1,376 @@
+body {
+    max-width: 1620px;
+    min-height: 100vh;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -----------CAMBEÇALHO----------- */
+
+header {
+    display: flex;
+    background-color: #1B2653;
+    color: #FFF;
+    position: relative;
+}
+
+.logo-header {
+    width: 15%;
+    margin: 1% 0% 1% 2%;
+}
+
+
+.logo-header img {
+    width: 150px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5% 0% 0%;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.header1,
+.header2 {
+    display: flex;
+    gap: 10%;
+
+}
+
+.header1 {
+    float: left;
+}
+
+.header2 {
+    float: right;
+    width: 20%;
+    margin-right: -30%;
+}
+
+#cadastre-se {
+    margin: 0% 0%;
+    padding: 0.8%;
+    width: 150px;
+    text-align: center;
+    color: #FFF;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 100px;
+}
+
+/* -------------CONTENT------------- */
+
+main {
+    column-gap: 10%;
+    align-items: center;
+    margin: 5%;
+    column-count: 3;
+}
+
+.container {
+    gap: 20%;
+    width: 100%;
+}
+
+
+/* -------------CORRETORES------------- */
+
+.corretores {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #787878;
+    width: 400px;
+    margin-bottom: 30%;
+}
+
+.corretores img {
+    width: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.corretores ul {
+    display: block;
+    margin: 1% 0% 1% 2%;
+
+}
+
+.corretores li {
+    margin: 2% 1%;
+    display: block;
+    column-count: 2;
+    width: 356px;
+}
+
+.corretores h1 {
+    margin-left: -10%;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 30%;
+}
+
+.corretores p {
+    margin-left: -10%;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.corretores a {
+    margin-left: -10%;
+    font-size: 12px;
+    text-decoration: underline;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FE6613;
+}
+
+/* -------------CONTATO------------- */
+
+.contato {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #787878;
+    width: 380px;
+    height: 332.49px;
+    margin-bottom: 31%;
+}
+
+.contato form {
+    margin: 5% 5%;
+
+}
+
+.contato h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+.contato input {
+    width: 280px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #787878;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+.contato button{
+    width: 150px;
+    height: 30px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: #FE6613;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+input#cpf {
+    height: 30px;
+}
+
+input#telefone {
+    height: 30px;
+}
+
+input#assunto {
+    height: 100px;
+}
+
+/* -----------REGRAD3 ----------- */
+
+.regrad3 {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #787878;
+    width: 360px;
+    height: 332.49px;
+    margin-bottom: 30%;
+}
+
+
+.regrad3 form {
+    margin: 5% 5%;
+}
+
+.regrad3 h1 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 5%;
+}
+
+div.input{
+    padding-top: 10%;
+    align-items: center;
+}
+
+div.input-group {
+    padding: 4%;
+    display: flex;
+    column-gap: 8%;
+}
+
+.input-group input {
+    height: 30px;
+    width: 130px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #787878;
+}
+
+#calcular{
+    width: 100px;
+    height: 30px;
+    margin: 4%;
+    margin-top: 17%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: #FE6613;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/* -----------IMAGENS ----------- */
+
+#imagens {
+    width: 300px;
+    margin-bottom: 30%;
+}
+
+#imagens img {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #787878;
+}
+
+#modal{
+    width: 400px;
+    height: 35px;
+    margin-top: 5%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: #FE6613;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#download{
+    width: 200px;
+    height: 35px;
+    left: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: #FE6613;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+#imovel-guide{
+    height: 35px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    margin-top: 17%;
+    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: #FFF;
+    background-color: #df5a12;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    opacity: 85%;
+}
+
+/* -------------RODAPÉ------------- */
+
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0%;
+    background-color: #1B2653;
+    color: #FFF;
+    width: 100%;
+    align-items: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.footer1 {
+    gap: 10%;
+    float: left;
+    display: flex;
+    width: 50%;
+    padding: 1% 2% 1% 2%;
+}
+
+.footer2 {
+    float: right;
+    display: flex;
+    width: 100%;
+    padding: 1% 2% 1% 2%;
+    justify-content: right;
+    gap: 8%;
+    align-items: center;
+}
+
+.footer2 img {
+    width: 120px
+}
