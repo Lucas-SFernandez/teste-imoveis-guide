@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px){
+    body {
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+
+}
+
+@media screen and (max-width: 384px){
+
+}
+
+@media screen and (max-width: 320px){
+
+}
