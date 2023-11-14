@@ -63,8 +63,18 @@
 
             <div id="imagens">
                 <img src="./src/imagens/OIP.png" alt="">
-                <button type="button" id="modal">ABRIR IMAGEM NO MODAL</button>
+
+                <div class="janela-modal" id="janela-modal">
+                    <div class="modal">
+                        <button type="button" class="fechar" id="fechar">X</button>
+                        <img src="./src/imagens/OIP.png" alt="" id="janela">
+                    </div>
+                    </div>
+
+                <button type="button" onclick="abrirModal()" id="modal">ABRIR IMAGEM NO MODAL</button>
             </div>
+
+
 
             <div class="contato">
                 <form>
@@ -83,7 +93,7 @@
                         </div>
 
                         <div>
-                            <input type="text" name="assunto" placeholder="Digite o assunto" id="assunto">
+                            <textarea name="assunto" id="assunto" placeholder="Digite o assunto" cols="30" rows="10"></textarea>
                             <label for="assunto" id="assunto2"></label>
                         </div>
 
@@ -144,6 +154,7 @@
 
     <script src="./src/js/index.js"></script>
     <script src="./src/js/regrad3.js"></script>
+    <script src="./src/js/modal.js"></script>
 </body>
 
 </html>
